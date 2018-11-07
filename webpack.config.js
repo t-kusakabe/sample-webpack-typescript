@@ -9,7 +9,7 @@ module.exports = {
       }
     ]
   },
-  resolve: [
-    '.ts'
-  ]
+  resolve: {
+    extensions: ['.ts']
+  }
 };
